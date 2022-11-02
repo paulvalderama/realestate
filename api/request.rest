@@ -1,0 +1,26 @@
+GET http://localhost:3001/email
+
+###
+POST http://localhost:3001/email/new
+Content-Type: application/json
+
+{
+    "email": "letsgetthismoney@gmail.com"
+}
+###
+
+GET http://localhost:3001/contact
+
+###
+POST http://localhost:3001/contact/new
+Content-Type: application/json
+
+{
+    "email": "realestate@gmail.com",
+    "name": "Pablo V",
+    "phone": "5103214378",
+    "day": "Monday",
+    "time": "5pm"
+}
+
+
